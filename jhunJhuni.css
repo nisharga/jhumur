@@ -1,0 +1,99 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+header
+{
+background-image:url(bg.jpg);
+background-position: center;
+background-size: cover;
+height: 100vh;
+}
+
+.nav-bar
+{
+	background-color:crimson;
+	height: 80px;
+}
+
+.logo
+{
+	height: 60px;
+	margin: 10px 50px;
+}
+
+.menu
+{
+	float: right;
+	margin: 20px;
+	list-style: none;
+	
+}
+
+.menu li
+{
+	display:inline-block;
+	margin:10px 5px;
+}
+
+.menu li a
+{
+	text-decoration: none;
+	letter-spacing: 2px;
+	margin:5px;
+	padding: 5px 10px;
+	font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+	color:orchid;
+	border: 1px solid rgba(138,16,192,1.00);
+}
+
+.menu li a:hover
+{
+	background-color:orangered;
+	transition: 0.4s;
+	color:black;
+}
+
+.welcome
+{
+	text-align: center;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	color: rebeccapurple;
+	top: 160px;
+	position: relative;
+}
+
+.welcome h1
+{
+	font-size: 42px;
+	margin: 25px;
+}
+
+.btn
+{
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin: 5px;
+	padding: 7px 10px;
+	border: 1px solid rgba(15,136,28,1.00);
+	text-decoration: none;
+}
+
+.btn1
+{
+	color: green;
+	background-color: violet;
+}
+
+.btn2
+{
+	color: gold;
+}
+
+.btn2:hover{
+	background-color: lime;
+	transition: .4s;
+	color: red;
+}  
